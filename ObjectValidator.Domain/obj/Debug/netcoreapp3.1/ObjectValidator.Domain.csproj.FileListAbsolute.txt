@@ -1,0 +1,9 @@
+D:\YESO\ProofOfConcepts\ObjectValidator\ObjectValidator.Domain\bin\Debug\netcoreapp3.1\ObjectValidator.Domain.deps.json
+D:\YESO\ProofOfConcepts\ObjectValidator\ObjectValidator.Domain\bin\Debug\netcoreapp3.1\ObjectValidator.Domain.dll
+D:\YESO\ProofOfConcepts\ObjectValidator\ObjectValidator.Domain\bin\Debug\netcoreapp3.1\ObjectValidator.Domain.pdb
+D:\YESO\ProofOfConcepts\ObjectValidator\ObjectValidator.Domain\obj\Debug\netcoreapp3.1\ObjectValidator.Domain.csprojAssemblyReference.cache
+D:\YESO\ProofOfConcepts\ObjectValidator\ObjectValidator.Domain\obj\Debug\netcoreapp3.1\ObjectValidator.Domain.AssemblyInfoInputs.cache
+D:\YESO\ProofOfConcepts\ObjectValidator\ObjectValidator.Domain\obj\Debug\netcoreapp3.1\ObjectValidator.Domain.AssemblyInfo.cs
+D:\YESO\ProofOfConcepts\ObjectValidator\ObjectValidator.Domain\obj\Debug\netcoreapp3.1\ObjectValidator.Domain.csproj.CoreCompileInputs.cache
+D:\YESO\ProofOfConcepts\ObjectValidator\ObjectValidator.Domain\obj\Debug\netcoreapp3.1\ObjectValidator.Domain.dll
+D:\YESO\ProofOfConcepts\ObjectValidator\ObjectValidator.Domain\obj\Debug\netcoreapp3.1\ObjectValidator.Domain.pdb
