@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XagkTVVFEbWgFcbaTBTRs0adaEJLK53Q+q/tkK5aPu+tM6rtib4G7PqrzfYLJpUV+M4wuUSzcUKCbBBhnEIX/A==",
+  "dgSpecHash": "G3kR3+uJpivRsDhYnacBJKyAtg0hHJgaumdzrok9KcCTApzO/D52MvNw/tv+hNlU9n+MTP8ckpYYBWY1vEElcg==",
   "success": true,
-  "projectFilePath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Valit\\ObjectValidator.Valit.csproj",
+  "projectFilePath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Valit\\ObjectValidator.Valit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],

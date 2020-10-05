@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj": {}
+    "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj": {}
   },
   "projects": {
-    "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj": {
+    "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj",
+        "projectUniqueName": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj",
         "projectName": "ObjectValidator.Domain",
-        "projectPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj",
+        "projectPath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\obj\\",
+        "outputPath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj": {
+    "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj",
+        "projectUniqueName": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj",
         "projectName": "ObjectValidator.FluentValidator",
-        "projectPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj",
+        "projectPath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.FluentValidator\\obj\\",
+        "outputPath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.FluentValidator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -93,8 +93,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj": {
-                "projectPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj"
+              "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj": {
+                "projectPath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj"
               }
             }
           }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj",
+      "projectUniqueName": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj",
       "projectName": "ObjectValidator.Domain",
-      "projectPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj",
+      "projectPath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\obj\\",
+      "outputPath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

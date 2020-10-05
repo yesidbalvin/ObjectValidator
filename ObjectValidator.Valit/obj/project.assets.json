@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "ObjectValidator.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/ObjectValidator.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ObjectValidator.Domain.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "ObjectValidator.Domain/1.0.0": {
-      "type": "project",
-      "path": "../ObjectValidator.Domain/ObjectValidator.Domain.csproj",
-      "msbuildProject": "../ObjectValidator.Domain/ObjectValidator.Domain.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "ObjectValidator.Domain >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Valit\\ObjectValidator.Valit.csproj",
+      "projectUniqueName": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Valit\\ObjectValidator.Valit.csproj",
       "projectName": "ObjectValidator.Valit",
-      "projectPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Valit\\ObjectValidator.Valit.csproj",
+      "projectPath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Valit\\ObjectValidator.Valit.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Valit\\obj\\",
+      "outputPath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.Valit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,11 +37,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj": {
-              "projectPath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.Domain\\ObjectValidator.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

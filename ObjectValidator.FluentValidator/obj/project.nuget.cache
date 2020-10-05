@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WETxH8w/bh2+gCTDF0t1BvkOrWN/AcpkrNL9SEEEMCxFVxQHLDtpvh/HcyE0KikkSp7zjIGVJTRTPvIxVS88Lg==",
+  "dgSpecHash": "ua7VZIBx/pWjPpUrbwz1gl6C9pwAWPHjkl55mpxefhUeWkU9J8TaWlQl/pX1JWNpgkP6dKrg3CHNqt6fYmxwsQ==",
   "success": true,
-  "projectFilePath": "D:\\YESO\\ProofOfConcepts\\ObjectValidator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj",
+  "projectFilePath": "D:\\YESO\\ProofOfConcepts\\Object-Validator\\ObjectValidator.FluentValidator\\ObjectValidator.FluentValidator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
