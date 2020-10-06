@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Metadata_Data\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,6 +29,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Data\ValidCV.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Metadata_Data\InvalidCV-missingdata.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Metadata_Data\InvalidCV_noPV.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Metadata_Data\ValidCV.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

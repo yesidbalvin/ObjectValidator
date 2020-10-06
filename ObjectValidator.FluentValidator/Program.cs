@@ -1,4 +1,5 @@
 ﻿using ObjectValidator.Domain.ConfirmedViolationCreated;
+using ObjectValidator.FluentValidator.MetadataValidator;
 using ObjectValidator.FluentValidator.Validator;
 using System;
 using System.IO;
@@ -22,7 +23,7 @@ namespace ObjectValidator.FluentValidator
             var confirmedViolationCreated = GetConfirmedViolationCreated(@"Data/ValidCV.json");
             var confirmedViolationCreatedValidator = new ConfirmedViolationCreatedValidator();
             var results = confirmedViolationCreatedValidator.Validate(confirmedViolationCreated);
-            if(!results.IsValid)
+            if (!results.IsValid)
             {
                 Console.WriteLine($"Error Validating ConfirmedViolationCreated => {results.ToString()}");
                 //foreach (var item in results.Errors)
@@ -43,7 +44,7 @@ namespace ObjectValidator.FluentValidator
 
             confirmedViolationCreated = GetConfirmedViolationCreated(@"Data/InvalidCV_noPV.json");
             results = confirmedViolationCreatedValidator.Validate(confirmedViolationCreated);
-            if(!results.IsValid)
+            if (!results.IsValid)
             {
                 Console.WriteLine($"Error validting ConfirmedViolationCretead => {results.ToString()}");
             }
@@ -71,8 +72,44 @@ namespace ObjectValidator.FluentValidator
             }
 
             //Custom validator simulating the Metadata file
+            //1. Valid object
+            confirmedViolationCreated = GetConfirmedViolationCreated(@"Metadata_Data/ValidCV.json");
+            var confirmedViolationMetadataValidator = new ConfirmedViolationMetadataValidator();
+            results = confirmedViolationMetadataValidator.Validate(confirmedViolationCreated);
+            if (!results.IsValid)
+            {
+                Console.WriteLine($"Error validating metadata => {results.ToString()}");
+            }
+            else
+            {
+                Console.WriteLine("@The object Metadata_Data/ValidCV.json is valid");
+            }
 
+            //2.Invalid Object, missing CV Id and PV
+            confirmedViolationCreated = GetConfirmedViolationCreated(@"Metadata_Data/InvalidCV_noPV.json");
+            confirmedViolationMetadataValidator = new ConfirmedViolationMetadataValidator();
+            results = confirmedViolationMetadataValidator.Validate(confirmedViolationCreated);
+            if (!results.IsValid)
+            {
+                Console.WriteLine($"Error validating metadata => {results.ToString()}");
+            }
+            else
+            {
+                Console.WriteLine("@The object Metadata_Data/InvalidCV_noPV.json is valid");
+            }
 
+            //3. Invalid Object, missing PV data
+            confirmedViolationCreated = GetConfirmedViolationCreated(@"Metadata_Data/InvalidCV-missingdata.json");
+            confirmedViolationMetadataValidator = new ConfirmedViolationMetadataValidator();
+            results = confirmedViolationMetadataValidator.Validate(confirmedViolationCreated);
+            if (!results.IsValid)
+            {
+                Console.WriteLine($"Error validating metadata => {results.ToString()}");
+            }
+            else
+            {
+                Console.WriteLine("@The object Metadata_Data/InvalidCV-missingdata.json is valid");
+            }
         }
 
         public static ConfirmedViolationCreated GetConfirmedViolationCreated(string cvPath)

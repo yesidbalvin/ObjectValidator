@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using ObjectValidator.Domain.ConfirmedViolationCreated;
-using System;
 
 namespace ObjectValidator.FluentValidator.Validator
 {
@@ -10,7 +9,8 @@ namespace ObjectValidator.FluentValidator.Validator
          */
         public ConfirmedViolationCreatedValidator()
         {
-            RuleFor(x => x.Id).NotEqual(Guid.Empty);
+            //RuleFor(x => x.Id).NotEqual(Guid.Empty);
+            RuleFor(x => x.Id).NotEmpty();
             RuleFor(x => x.PotentialViolations)
                 .Must(x => x.Count == 2).WithMessage("Less than 2 PotentialViolations are not allowed");
             RuleForEach(x => x.PotentialViolations).SetValidator(new PotentialViolationCreatedValidator());
