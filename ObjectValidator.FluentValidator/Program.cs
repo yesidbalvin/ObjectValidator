@@ -19,7 +19,7 @@ namespace ObjectValidator.FluentValidator
             Console.WriteLine("***********************************");
             Console.WriteLine("Valid CV");
 
-            var confirmedViolationCreated = GetConfirmedViolationCreated(@"Data\ValidCV.json");
+            var confirmedViolationCreated = GetConfirmedViolationCreated(@"Data/ValidCV.json");
             var confirmedViolationCreatedValidator = new ConfirmedViolationCreatedValidator();
             var results = confirmedViolationCreatedValidator.Validate(confirmedViolationCreated);
             if(!results.IsValid)
@@ -41,7 +41,7 @@ namespace ObjectValidator.FluentValidator
             Console.WriteLine("***********************************");
             Console.WriteLine("Invalid CV with no Potential Violation");
 
-            confirmedViolationCreated = GetConfirmedViolationCreated(@"Data\InvalidCV_noPV.json");
+            confirmedViolationCreated = GetConfirmedViolationCreated(@"Data/InvalidCV_noPV.json");
             results = confirmedViolationCreatedValidator.Validate(confirmedViolationCreated);
             if(!results.IsValid)
             {
@@ -59,7 +59,7 @@ namespace ObjectValidator.FluentValidator
             Console.WriteLine("***********************************");
             Console.WriteLine("Invalid CV with missing properties in PotentialViolation");
 
-            confirmedViolationCreated = GetConfirmedViolationCreated(@"Data\InvalidCV-missingdata.json");
+            confirmedViolationCreated = GetConfirmedViolationCreated(@"Data/InvalidCV-missingdata.json");
             results = confirmedViolationCreatedValidator.Validate(confirmedViolationCreated);
             if (!results.IsValid)
             {

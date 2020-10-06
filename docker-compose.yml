@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  objectvalidator.fluentvalidator:
+    image: ${DOCKER_REGISTRY-}objectvalidatorfluentvalidator
+    build:
+      context: .
+      dockerfile: ObjectValidator.FluentValidator/Dockerfile

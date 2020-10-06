@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectValidator.FluentValid
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectValidator.Domain", "ObjectValidator.Domain\ObjectValidator.Domain.csproj", "{7A0B59EC-EFDB-4788-89CE-3118442B432F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectValidator.Valit", "ObjectValidator.Valit\ObjectValidator.Valit.csproj", "{E9E53070-76E4-4594-A428-655DBC418950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectValidator.Valit", "ObjectValidator.Valit\ObjectValidator.Valit.csproj", "{E9E53070-76E4-4594-A428-655DBC418950}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1D030DC1-8859-446C-BF1C-E966085DA704}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E9E53070-76E4-4594-A428-655DBC418950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9E53070-76E4-4594-A428-655DBC418950}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9E53070-76E4-4594-A428-655DBC418950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D030DC1-8859-446C-BF1C-E966085DA704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D030DC1-8859-446C-BF1C-E966085DA704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D030DC1-8859-446C-BF1C-E966085DA704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D030DC1-8859-446C-BF1C-E966085DA704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
